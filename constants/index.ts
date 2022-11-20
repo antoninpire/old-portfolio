@@ -4,5 +4,3 @@ export const DESCRIPTION =
 export const PHONE_NUMBER = '+33780019744'
 
 export const EMAIL_ADDRESS = 'antonin.pire@gmail.com'
-
-export const JOB_TITLE = 'Software Engineer'

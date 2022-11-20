@@ -5,9 +5,9 @@ export default function Skills() {
   return (
     <div id="skills">
       <h2 className="font-sono-bold text-xl">Skills</h2>
-      <div className="flex justify-around items-center py-6 flex-wrap gap-y-8">
+      <div className="flex justify-around items-center md:py-6 flex-wrap gap-y-8 md:mt-0 mt-8">
         {SKILLS.map((skill, index) => (
-          <div key={`skill-${index}`} className="w-[30%]">
+          <div key={`skill-${index}`} className="md:w-[30%] w-[40%]">
             <CircularProgressbar
               value={skill.percentage / 100}
               maxValue={1}

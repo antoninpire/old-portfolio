@@ -1,6 +1,6 @@
 export default function Bio() {
   return (
-    <div id="bio" className="">
+    <div id="bio">
       <h2 className="font-sono-bold text-xl">Bio</h2>
       <ul className="mt-3 px-4">
         <li className="mt-2">

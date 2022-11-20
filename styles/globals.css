@@ -54,12 +54,15 @@ a {
   }
 }
 
+/* LOADER */
+
 .lds-ring {
   display: inline-block;
   position: relative;
   width: 80px;
   height: 80px;
 }
+
 .lds-ring div {
   box-sizing: border-box;
   display: block;
@@ -72,20 +75,69 @@ a {
   animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
   border-color: #fff transparent transparent transparent;
 }
+
 .lds-ring div:nth-child(1) {
   animation-delay: -0.45s;
 }
+
 .lds-ring div:nth-child(2) {
   animation-delay: -0.3s;
 }
+
 .lds-ring div:nth-child(3) {
   animation-delay: -0.15s;
 }
+
 @keyframes lds-ring {
   0% {
     transform: rotate(0deg);
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+/* END LOADER */
+
+#description {
+  animation: 0.3s ease-out 1 slideUp;
+}
+
+#bio {
+  animation: 0.5s ease-out 1 slideUp;
+}
+
+#skills {
+  animation: 0.7s ease-out 1 slideUp;
+}
+
+#portfolio {
+  animation: 0.9s ease-out 1 slideUp;
+}
+
+#links {
+  animation: 1.1s ease-out 1 slideUp;
+}
+
+#bullets {
+  animation: 0.3s ease-out 1 slideUp;
+}
+
+#features {
+  animation: 0.5s ease-out 1 slideUp;
+}
+
+#images {
+  animation: 0.5s ease-out 1 slideUp;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
