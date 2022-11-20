@@ -23,7 +23,7 @@ export default function Header() {
               .typeString('Web Developer')
               .pauseFor(2500)
               .deleteAll(40)
-              .typeString('Full Stack Freelance')
+              .typeString('FullStack Indie')
               .pauseFor(2500)
               .deleteAll(40)
               .typeString('Software Developer')
@@ -45,15 +45,15 @@ export default function Header() {
           href={`mailto:${EMAIL_ADDRESS}`}
           className="flex items-center gap-1 mt-3 hover:text-ternary hover:cursor-pointer"
         >
-          <p>{EMAIL_ADDRESS}</p>
-          <FiMail className="text-lg" />
+          <p className="md:text-base text-[15px]">{EMAIL_ADDRESS}</p>
+          <FiMail className="md:text-lg" />
         </a>
         <a
           href={`tel:${PHONE_NUMBER}`}
           className="flex items-center gap-1 hover:text-ternary hover:cursor-pointer"
         >
-          <p>{PHONE_NUMBER}</p>
-          <BsTelephone className="text-lg" />
+          <p className="md:text-base text-[15px]">{PHONE_NUMBER}</p>
+          <BsTelephone className="md:text-lg" />
         </a>
       </div>
       <div className="w-[40%] flex md:items-center justify-center">

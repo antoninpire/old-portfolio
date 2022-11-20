@@ -9,7 +9,7 @@ export default function Portfolio() {
       <div className="flex flex-col md:flex-row justify-between items-center md:gap-3 gap-8 md:py-6 md:mt-0 mt-8">
         {PROJECTS.map(project => (
           <Link
-            className="md:w-[48%] w-[75%] flex flex-col hover:cursor-pointer hover:text-ternary"
+            className="md:w-[48%] w-[75%] flex flex-col hover:cursor-pointer md:hover:text-ternary"
             href={project.path}
             key={`project-${project.label}`}
           >

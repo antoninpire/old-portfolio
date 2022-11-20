@@ -5,6 +5,7 @@ type TBullet = {
   content: {
     type: 'text' | 'url'
     text: string
+    target?: string
   }
 }
 
@@ -63,14 +64,16 @@ export const PROJECT: TProject = {
         label: 'website',
         content: {
           type: 'url',
-          text: 'https://sinta.app/'
+          text: 'https://sinta.app/',
+          target: 'https://sinta.app/'
         }
       },
       {
         label: 'apps',
         content: {
           type: 'url',
-          text: 'https://sinta.app/download'
+          text: 'https://sinta.app/download',
+          target: 'https://sinta.app/download'
         }
       },
       {
@@ -140,14 +143,16 @@ export const PROJECT: TProject = {
         label: 'back git',
         content: {
           type: 'url',
-          text: 'https://github.com/antoninpire/Natflix-Back'
+          text: 'github.com',
+          target: 'https://github.com/antoninpire/Natflix-Back'
         }
       },
       {
         label: 'front git',
         content: {
           type: 'url',
-          text: 'https://github.com/antoninpire/Natflix-Front'
+          text: 'github.com',
+          target: 'https://github.com/antoninpire/Natflix-Front'
         }
       },
       {

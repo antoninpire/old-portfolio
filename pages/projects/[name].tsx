@@ -50,7 +50,7 @@ const Project: NextPage<Props> = ({ project }) => {
                 <p>{bullet.content.text}</p>
               ) : (
                 <a
-                  href={bullet.content.text}
+                  href={bullet.content.target}
                   rel="noreferrer"
                   target="_blank"
                   className="flex items-center gap-1 hover:cursor-pointer text-ternary border-b border-b-main hover:border-b-ternary"
