@@ -1,4 +1,5 @@
 import Layout from '@components/Layout'
+import Loader from '@components/Loader'
 import { PROJECT, PROJECT_NAMES, TProject } from '@constants/project'
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next'
 import Image from 'next/image'
@@ -12,6 +13,15 @@ type Props = {
 }
 
 const Project: NextPage<Props> = ({ project }) => {
+  if (!project)
+    return (
+      <Layout title="Antonin PIRE - Loading">
+        <div className="w-full h-full flex justify-center items-center">
+          <Loader />
+        </div>
+      </Layout>
+    )
+
   return (
     <Layout title={`Antonin PIRE - ${project.name}`}>
       <div className="">
