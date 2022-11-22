@@ -119,7 +119,7 @@ export default function en() {
               </div>
               <div className="mt-1">
                 <ul className="list-disc text-sm px-8">
-                  <li>2 month internship at TCHEKER</li>
+                  <li>4 month internship at TCHEKER</li>
                   <li>
                     Learned language basics in C, Python, Javascript, Android
                   </li>
@@ -265,7 +265,7 @@ export default function en() {
                   <li>Managing a team of 2 developers</li>
                   <li>
                     Lead developer for the making of a mobile app for the
-                    "tchekers"
+                    &quot;tchekers&quot;
                   </li>
                   <li>
                     Lead developer for the making of a dashboard for internal

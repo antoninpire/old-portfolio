@@ -119,7 +119,7 @@ export default function fr() {
               </div>
               <div className="mt-1">
                 <ul className="list-disc text-sm px-8">
-                  <li>Stage de 2 mois chez TCHEKER</li>
+                  <li>Stage de 4 mois chez TCHEKER</li>
                   <li>
                     Apprentissage des langages C, Python, Javascript et Android
                   </li>
@@ -238,9 +238,9 @@ export default function fr() {
               </div>
               <div className="mt-1">
                 <ul className="list-disc text-sm px-8">
-                  <li>Management d'une équipe de 5 personnes</li>
+                  <li>Management d&apos;une équipe de 5 personnes</li>
                   <li>Gestion de clients et collaborations</li>
-                  <li>Management d'un projet de machine learning</li>
+                  <li>Management d&apos;un projet de machine learning</li>
                 </ul>
               </div>
             </div>
@@ -262,10 +262,10 @@ export default function fr() {
               </div>
               <div className="mt-1">
                 <ul className="list-disc text-sm px-8">
-                  <li>Management d'une team de 2 developpeurs</li>
+                  <li>Management d&apos;une team de 2 developpeurs</li>
                   <li>
-                    Lead développeur sur un projet d'application mobile pour les
-                    "tchekers"
+                    Lead développeur sur un projet d&apos;application mobile
+                    pour les &quot;tchekers&quot;
                   </li>
                   <li>
                     Lead développeur sur un projet de back-office interne et
@@ -288,9 +288,9 @@ export default function fr() {
               <h3 className="text-base font-semibold">Sinta</h3>
               <h3 className="text-sm font-medium indent-3 mt-1">
                 Une application mobile pour couples, où chacun peut interagir
-                avec l'autre, stocker divers médias, gérer un calendrier
-                partagé, placer des activités sur une carte commune, s'envoyer
-                des notifications, etc.
+                avec l&apos;autre, stocker divers médias, gérer un calendrier
+                partagé, placer des activités sur une carte commune,
+                s&apos;envoyer des notifications, etc.
               </h3>
               <div className="flex items-center gap-x-1 mt-1 flex-wrap gap-y-1">
                 <p className="uppercase text-sm font-sono-bold bg-[rgba(80,114,100,0.3)] py-[1px] px-[6px] rounded text-[#9AE6B4] whitespace-nowrap">
@@ -316,8 +316,8 @@ export default function fr() {
               <h3 className="text-base font-semibold">Natflix</h3>
               <h3 className="text-sm font-medium indent-3 mt-1">
                 Un clone netflix qui implémente 3 algorithmes de machine
-                learning pour la mise en place d'un système de suggestions et
-                recommandations basé sur les notes des utilisateurs.
+                learning pour la mise en place d&apos;un système de suggestions
+                et recommandations basé sur les notes des utilisateurs.
               </h3>
               <div className="flex items-center gap-x-1 mt-1 flex-wrap gap-y-1">
                 <p className="uppercase text-sm font-sono-bold bg-[rgba(80,114,100,0.3)] py-[1px] px-[6px] rounded text-[#9AE6B4] whitespace-nowrap">
