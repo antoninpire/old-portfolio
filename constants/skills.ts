@@ -43,5 +43,13 @@ export const SKILLS: TSkill[] = [
   {
     label: 'C#',
     percentage: 65
+  },
+  {
+    label: 'AngularJS',
+    percentage: 55
+  },
+  {
+    label: 'PHP',
+    percentage: 80
   }
 ]

@@ -9,7 +9,9 @@ module.exports = {
       fontFamily: {
         sono: 'Sono',
         'sono-bold': 'Sono-Bold',
-        'sono-light': 'Sono-Light'
+        'sono-light': 'Sono-Light',
+        'sono-semibold': 'Sono-SemiBold',
+        'sono-medium': 'Sono-Medium'
       },
       colors: {
         main: '#202023',

@@ -13,7 +13,7 @@
 @font-face {
   font-family: 'Sono-Bold';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-display: swap;
   src: url('/fonts/Sono-Bold.ttf') format('truetype');
 }
@@ -24,6 +24,22 @@
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/Sono-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sono-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/Sono-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sono-Medium';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/Sono-Medium.ttf') format('truetype');
 }
 
 html,
